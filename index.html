@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Balsamiq+Sans:ital@1&family=Bree+Serif&family=Mooli&family=Poppins:wght@400;700&family=Quicksand:wght@300&family=Roboto+Mono:wght@700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>
+          Make your own Color Gradient
+        </h1>
+        <div class="mainBox">
+
+            <div class="gradBox">
+
+            </div>
+
+            <div class="row">
+                <div class="Select-Box">
+                    <p>Direction</p>
+                    <select>
+                        <option value=" to top">Top</option>
+                        <option value=" to right top">Right Top</option>
+                        <option value=" to right">Right</option>
+                        <option value=" to right bottom">Right Bottom</option>
+                        <option value=" to Bottom">Bottom</option>
+                        <option value=" to left bottom">Left Bottom</option>
+                        <option value=" to left">Left</option>
+                        <option value=" to left top" selected> Left Top</option>
+                    </select>
+                </div>
+
+                <div class="colorSec">
+                    <p>Colors</p>
+                    <div class="color">
+                        <input type="color" id="head" name="head" value="#3ee2ff" >
+                        <input type="color"  name="head" id="head"  value="#11073d">
+                    </div>
+                </div>
+            </div>
+
+<div class="text_area">
+    <textarea class="row2 row" disabled>background:linear-gradient( to right bottom ,#3ee2ff, #11073d);</textarea>
+</div>
+
+
+
+<div class="buttons">
+    <button class="refresh">Refresh Colors</button>
+    <button class="copy">Copy Code</button>
+</div>
+
+
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
